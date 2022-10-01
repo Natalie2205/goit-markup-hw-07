@@ -13,31 +13,33 @@
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
         integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        crossorigin="anonymous" referrerpolicy="no-referrer">
     <link rel="stylesheet" href="./css/main.min.css">
 </head>
 
 <body>
     <header class="header">
-        <div class="container header-container">
+        <div class="container header__container">
             <nav class="navigation">
-                <a href="./index.html" class="logo link">Web<span class="logo-header">Studio</span></a>
+                <a href="./index.html" class="navigation__logo logo link">Web<span
+                        class="logo__header-title">Studio</span></a>
 
                 <ul class="site-nav list">
-                    <li class="menu-item"><a href="./index.html" class="link">Студія</a></li>
-                    <li class="menu-item"><a href="./portfolio.html" class="link current">Портфоліо</a></li>
-                    <li class="menu-item"><a href="#" class="link">Контакти</a></li>
+                    <li class="site-nav__item"><a href="./index.html" class="site-nav__link link">Студія</a></li>
+                    <li class="site-nav__item"><a href="./portfolio.html"
+                            class="site-nav__link link site-nav__link_current">Портфоліо</a></li>
+                    <li class="site-nav__item"><a href="#" class="site-nav__link link">Контакти</a></li>
                 </ul>
             </nav>
 
             <ul class="site-contact list">
-                <li class="menu-item"><a href="mailto:info@devstudio.com" class="link">
-                        <svg aria-label="конверт" class="menu-icon" width="16px" height="12px">
+                <li class="site-contact__item"><a href="mailto:info@devstudio.com" class="site-contact__link link">
+                        <svg aria-label="конверт" class="site-contact__icon" width="16px" height="12px">
                             <use href="./images/sprite.svg#icon-envelope"></use>
                         </svg>
                         info@devstudio.com</a></li>
-                <li class="menu-item"><a href="tel:+380961111111" class="link">
-                        <svg aria-label="телефон" class="menu-icon" width="10px" height="16px">
+                <li class="site-contact__item"><a href="tel:+380961111111" class="site-contact__link link">
+                        <svg aria-label="телефон" class="site-contact__icon" width="10px" height="16px">
                             <use href="./images/sprite.svg#icon-smartphone"></use>
                         </svg>
                         +38 096 111 11 11</a></li>
@@ -70,7 +72,7 @@
                             </div>
 
                             <div class="works-card">
-                                <h2 class="works-title">Технокряк</h2>
+                                <h2 class="works__title">Технокряк</h2>
                                 <p class="works-type">Веб-сайт</p>
                             </div>
                         </a>
@@ -87,7 +89,7 @@
                                 </p>
                             </div>
                             <div class="works-card">
-                                <h2 class="works-title">Постер New Orlean vs Golden Star</h2>
+                                <h2 class="works__title">Постер New Orlean vs Golden Star</h2>
                                 <p class="works-type">Дизайн</p>
                             </div>
                         </a>
@@ -103,7 +105,7 @@
                                 </p>
                             </div>
                             <div class="works-card">
-                                <h2 class="works-title">Ресторан Seafood</h2>
+                                <h2 class="works__title">Ресторан Seafood</h2>
                                 <p class="works-type">Додаток</p>
                             </div>
                         </a>
@@ -119,7 +121,7 @@
                                 </p>
                             </div>
                             <div class="works-card">
-                                <h2 class="works-title">Проєкт Prime</h2>
+                                <h2 class="works__title">Проєкт Prime</h2>
                                 <p class="works-type">Маркетинг</p>
                             </div>
                         </a>
@@ -135,7 +137,7 @@
                                 </p>
                             </div>
                             <div class="works-card">
-                                <h2 class="works-title">Проєкт Boxes</h2>
+                                <h2 class="works__title">Проєкт Boxes</h2>
                                 <p class="works-type">Додаток</p>
                             </div>
                         </a>
@@ -151,7 +153,7 @@
                                 </p>
                             </div>
                             <div class="works-card">
-                                <h2 class="works-title">Inspiration has no Borders</h2>
+                                <h2 class="works__title">Inspiration has no Borders</h2>
                                 <p class="works-type">Веб-сайт</p>
                             </div>
                         </a>
@@ -167,7 +169,7 @@
                                 </p>
                             </div>
                             <div class="works-card">
-                                <h2 class="works-title">Видання Limited Edition</h2>
+                                <h2 class="works__title">Видання Limited Edition</h2>
                                 <p class="works-type">Дизайн</p>
                             </div>
                         </a>
@@ -183,7 +185,7 @@
                                 </p>
                             </div>
                             <div class="works-card">
-                                <h2 class="works-title">Проєкт LAB</h2>
+                                <h2 class="works__title">Проєкт LAB</h2>
                                 <p class="works-type">Маркетинг</p>
                             </div>
                         </a>
@@ -200,7 +202,7 @@
                                 </p>
                             </div>
                             <div class="works-card">
-                                <h2 class="works-title">Growing Business</h2>
+                                <h2 class="works__title">Growing Business</h2>
                                 <p class="works-type">Додаток</p>
                             </div>
                         </a>
@@ -217,7 +219,7 @@
     <footer class="footer">
         <div class="container footer-box">
             <div class="footer-address">
-                <a href="./index.html" class="logo link">Web<span class="logo-footer">Studio</span></a>
+                <a href="./index.html" class="logo link">Web<span class="logo__footer-title">Studio</span></a>
 
                 <address class="address">
                     <ul class="footer-contact list">
@@ -268,7 +270,7 @@
                 <form>
                     <p class="singup-title">Підпишіться на розсилку</p>
                     <label>
-                        <input type="email" name="email" class="singup-input" placeholder="E-mail" />
+                        <input type="email" name="email" class="singup-input" placeholder="E-mail">
                     </label>
 
                     <button type="submit" class="singup-btn">

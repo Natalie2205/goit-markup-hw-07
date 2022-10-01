@@ -2,11 +2,13 @@
     display: flex;
 }
 
-.site-nav {
+.site-nav,
+.site-contact {
     display: flex;
-    align-items: center;
+    align-items: center; 
+}
 
-    .link {
+ .site-nav__link {
     position: relative;
     display: block;
     padding-top: 32px;
@@ -20,19 +22,14 @@
     &:hover,
     &:focus {
         color: var(--accent-color);
-    }
-    &.current {
+    }    
+}
+
+.site-nav__link_current {
     color: var(--accent-color);
-}
+ }
 
-}
-}
-
-.site-contact {
-    display: flex;
-    align-items: center;
-
-    .link {
+.site-contact__link {
     display: block;
     padding-top: 32px;
     padding-bottom: 32px;
@@ -48,10 +45,7 @@
     }
 }
 
-}
-
-
-.current::after {
+.site-nav__link_current::after {
     content: "";
     position: absolute;
     bottom: -1px;

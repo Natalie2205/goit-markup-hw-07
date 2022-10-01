@@ -13,31 +13,34 @@
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
         integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        crossorigin="anonymous" referrerpolicy="no-referrer">
     <link rel="stylesheet" href="./css/main.min.css">
 </head>
 
 <body>
     <header class="header">
-        <div class="container header-container">
+        <div class="container header__container">
             <nav class="navigation">
-                <a href="./index.html" class="logo link">Web<span class="logo-header">Studio</span></a>
+                <a href="./index.html" class="navigation__logo logo link">Web<span
+                        class="logo__header-title">Studio</span></a>
 
                 <ul class="site-nav list">
-                    <li class="menu-item"><a href="./index.html" class="link current">Студія</a></li>
-                    <li class="menu-item"><a href="./portfolio.html" class="link">Портфоліо</a></li>
-                    <li class="menu-item"><a href="#" class="link">Контакти</a></li>
+                    <li class="site-nav__item"><a href="./index.html"
+                            class="site-nav__link link site-nav__link_current">Студія</a>
+                    </li>
+                    <li class="site-nav__item"><a href="./portfolio.html" class="site-nav__link link">Портфоліо</a></li>
+                    <li class="site-nav__item"><a href="#" class="site-nav__link link">Контакти</a></li>
                 </ul>
             </nav>
 
             <ul class="site-contact list">
-                <li class="menu-item"><a href="mailto:info@devstudio.com" class="link">
-                        <svg aria-label="конверт" class="menu-icon" width="16px" height="12px">
+                <li class="site-contact__item"><a href="mailto:info@devstudio.com" class="site-contact__link link">
+                        <svg aria-label="конверт" class="site-contact__icon" width="16px" height="12px">
                             <use href="./images/sprite.svg#icon-envelope"></use>
                         </svg>
                         info@devstudio.com</a></li>
-                <li class="menu-item"><a href="tel:+380961111111" class="link">
-                        <svg aria-label="телефон" class="menu-icon" width="10px" height="16px">
+                <li class="site-contact__item"><a href="tel:+380961111111" class="site-contact__link link">
+                        <svg aria-label="телефон" class="site-contact__icon" width="10px" height="16px">
                             <use href="./images/sprite.svg#icon-smartphone"></use>
                         </svg>
                         +38 096 111 11 11</a></li>
@@ -50,51 +53,51 @@
     <main>
 
         <section class="section hero">
-            <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
+            <h1 class="hero__title">Ефективні рішення для вашого бізнесу</h1>
             <button type="button" class="button" data-modal-open>Замовити послугу</button>
         </section>
         <section class="section features">
             <div class="container">
-                <h2 class="section-title visually-hidden">Наші особливості</h2>
-                <ul class="features-list list">
-                    <li class="features-item">
-                        <div class="features-box">
-                            <svg aria-label="іконка антена" class="features-icon">
+                <h2 class="section__title visually-hidden">Наші особливості</h2>
+                <ul class="features__list list">
+                    <li class="features__item">
+                        <div class="features__box">
+                            <svg aria-label="іконка антена" class="features__icon">
                                 <use href="./images/sprite.svg#icon-antenna"></use>
                             </svg>
                         </div>
-                        <h3 class="features-title">УВАГА ДО ДЕТАЛЕЙ</h3>
-                        <p class="features-description">Ідейні міркування, і навіть початок повсякденної роботи з
+                        <h3 class="features__title">УВАГА ДО ДЕТАЛЕЙ</h3>
+                        <p class="features__description">Ідейні міркування, і навіть початок повсякденної роботи з
                             формування позиції.</p>
                     </li>
-                    <li class="features-item">
-                        <div class="features-box">
-                            <svg aria-label="іконка годинник" class="features-icon">
+                    <li class="features__item">
+                        <div class="features__box">
+                            <svg aria-label="іконка годинник" class="features__icon">
                                 <use href="./images/sprite.svg#icon-clock"></use>
                             </svg>
                         </div>
-                        <h3 class="features-title">ПУНКТУАЛЬНІСТЬ</h3>
-                        <p class="features-description">Завдання організації, особливо рамки і місце навчання кадрів
+                        <h3 class="features__title">ПУНКТУАЛЬНІСТЬ</h3>
+                        <p class="features__description">Завдання організації, особливо рамки і місце навчання кадрів
                             тягне у себе.</p>
                     </li>
-                    <li class="features-item">
-                        <div class="features-box">
-                            <svg aria-label="іконка діаграмма" class="features-icon">
+                    <li class="features__item">
+                        <div class="features__box">
+                            <svg aria-label="іконка діаграмма" class="features__icon">
                                 <use href="./images/sprite.svg#icon-diagram"></use>
                             </svg>
                         </div>
-                        <h3 class="features-title">ПЛАНУВАННЯ</h3>
-                        <p class="features-description">Так само консультація з широким активом значною мірою зумовлює.
+                        <h3 class="features__title">ПЛАНУВАННЯ</h3>
+                        <p class="features__description">Так само консультація з широким активом значною мірою зумовлює.
                         </p>
                     </li>
-                    <li class="features-item">
-                        <div class="features-box">
-                            <svg aria-label="іконка астронавт" class="features-icon">
+                    <li class="features__item">
+                        <div class="features__box">
+                            <svg aria-label="іконка астронавт" class="features__icon">
                                 <use href="./images/sprite.svg#icon-astronaut"></use>
                             </svg>
                         </div>
-                        <h3 class="features-title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
-                        <p class="features-description">Значимість цих проблем настільки очевидна, що реалізація
+                        <h3 class="features__title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+                        <p class="features__description">Значимість цих проблем настільки очевидна, що реалізація
                             планових завдань.</p>
                     </li>
                 </ul>
@@ -102,26 +105,26 @@
         </section>
         <section class="section our-work">
             <div class="container">
-                <h2 class="section-title">Чим ми займаємося</h2>
+                <h2 class="section__title">Чим ми займаємося</h2>
                 <ul class="list our-work-list">
                     <li class="our-work-item">
                         <img src="./images/img1.jpg" alt="Людина набирає код на клавіатурі" width="370" height="294">
                         <div class="our-work-thumb">
-                            <h2 class="our-work-title">Десктопні додатки</h2>
+                            <h2 class="our-work__title">Десктопні додатки</h2>
 
                         </div>
                     </li>
                     <li class="our-work-item">
                         <img src="./images/img2.jpg" alt="Дівчина тримає в руках смартфон" width="370" height="294">
                         <div class="our-work-thumb">
-                            <h2 class="our-work-title">Мобільні додатки</h2>
+                            <h2 class="our-work__title">Мобільні додатки</h2>
 
                         </div>
                     </li>
                     <li class="our-work-item">
                         <img src="./images/img3.jpg" alt="Дівчина малює на планшеті" width="370" height="294">
                         <div class="our-work-thumb">
-                            <h2 class="our-work-title">Дизайнерські рішення</h2>
+                            <h2 class="our-work__title">Дизайнерські рішення</h2>
 
                         </div>
                     </li>
@@ -130,12 +133,12 @@
         </section>
         <section class="section our-team">
             <div class="container">
-                <h2 class="section-title">Наша команда</h2>
+                <h2 class="section__title">Наша команда</h2>
                 <ul class="command list">
                     <li class="command-item">
                         <img src="./images/photo1.jpg" alt="Ігор Дем'яненко" width="270" height="260">
                         <div class="command-card">
-                            <h3 class="command-title">Ігор Дем'яненко</h3>
+                            <h3 class="command__title">Ігор Дем'яненко</h3>
                             <p lang="en" class="command-profession">Product Designer</p>
                             <ul class="social-list">
                                 <li class="social-list-item list">
@@ -177,7 +180,7 @@
                     <li class="command-item">
                         <img src="./images/photo2.jpg" alt="Ольга Рєпіна" width="270" height="260">
                         <div class="command-card">
-                            <h3 class="command-title">Ольга Рєпіна</h3>
+                            <h3 class="command__title">Ольга Рєпіна</h3>
                             <p lang="en" class="command-profession">Frontend Developer</p>
                             <ul class="social-list">
                                 <li class="social-list-item list">
@@ -218,7 +221,7 @@
                     <li class="command-item">
                         <img src="./images/photo3.jpg" alt="Микола Тарасов" width="270" height="260">
                         <div class="command-card">
-                            <h3 class="command-title">Микола Тарасов</h3>
+                            <h3 class="command__title">Микола Тарасов</h3>
                             <p lang="en" class="command-profession">Marketing</p>
                             <ul class="social-list">
                                 <li class="social-list-item list">
@@ -259,7 +262,7 @@
                     <li class="command-item">
                         <img src="./images/photo4.jpg" alt="Михайло Єрмаков" width="270" height="260">
                         <div class="command-card">
-                            <h3 class="command-title">Михайло Єрмаков</h3>
+                            <h3 class="command__title">Михайло Єрмаков</h3>
                             <p lang="en" class="command-profession">UI Designer</p>
                             <ul class="social-list">
                                 <li class="social-list-item list">
@@ -302,7 +305,7 @@
         </section>
         <section class="section clients">
             <div class="container">
-                <h2 class="section-title">Постійні клієнти</h2>
+                <h2 class="section__title">Постійні клієнти</h2>
                 <ul class="list clients-list">
                     <li class="clients-item">
                         <a href="" class="clients-link link">
@@ -357,7 +360,7 @@
     <footer class="footer">
         <div class="container footer-box">
             <div class="footer-address">
-                <a href="./index.html" class="logo link">Web<span class="logo-footer">Studio</span></a>
+                <a href="./index.html" class="logo link">Web<span class="logo__footer-title">Studio</span></a>
 
                 <address class="address">
                     <ul class="footer-contact list">
@@ -408,7 +411,7 @@
                 <form>
                     <p class="singup-title">Підпишіться на розсилку</p>
                     <label>
-                        <input type="email" name="email" class="singup-input" placeholder="E-mail" />
+                        <input type="email" name="email" class="singup-input" placeholder="E-mail">
                     </label>
 
                     <button type="submit" class="singup-btn">
